@@ -1,0 +1,73 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-attachment: fixed;
+    background-color: rgba(15, 15, 15);
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(15, 15, 15, 0.9);
+}
+
+.frosted-glass {
+    backdrop-filter: blur(10px); /* Размытие фона */
+    background-color: rgba(15, 15, 15, 0.8); /* Прозрачный цвет фона */
+}
+
+.logo-image {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 10%; 
+    height: 10%;
+    background-size: cover;
+    background-position: left bottom;
+    opacity: 1;
+}
+
+.background-image {
+    position:absolute;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-image {
+    position: page;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+::-webkit-scrollbar {
+    width: 8px; /* Ширина скроллбара */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #333; /* Цвет фона трека скроллбара */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666; /* Цвет ползунка скроллбара */
+}
+
