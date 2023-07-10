@@ -23,7 +23,7 @@ namespace PortfolioWebProj.Controllers
             return View();
         }
 
-        public IActionResult Programming()
+        public IActionResult Development()
         {
             return View();
         }
